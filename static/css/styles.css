@@ -67,36 +67,3 @@ body{
 .h-300{
     height: 300px;
 }
-
-
-[id$="Bubble"]{
-    border-radius: 50%;
-    position:absolute;
-    
-}
-
-#innerBubble{
-    left: 15vh;
-    top: 15vh;
-    height:20vh;
-    width: 20vh;
-    border:2px solid blue;
-}
-
-#middleBubble{
-    left: 15vh;
-    top: 15vh;
-    height:50vh;
-    width:50vh;  
-    border:2px solid red;
-
-}
-
-#outerBubble{
-    margin-top: 5vw;
-    margin-left: 15vh;
-    height: 80vh;
-    width: 80vh;
-    border:2px solid green;
-    position: relative;
-}

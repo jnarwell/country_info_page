@@ -30,5 +30,29 @@
             </div>
           </nav>
     </header>
+    <main>
+        <div class="is-visible" id="home">
+            <div class="hero-image">
+                <div class="hero-text">
+                  <h1>Find Your Country</h1>
+                 <button class="light-dark-button btn btn-info btn-lg" value="Dark">Dark</button> | <button value="Light" class="light-dark-button btn btn-primary btn-lg">Light</Button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row is-invisible" id="find-country">
+          <form id="find-countries-form">
+            <div class="m-4 col-10">
+                <h2 class="display-3 my-3">Please enter a name of a country</h2>
+                <input class="form-control my-3" name="country" placeholder="Country Name">
+                <button id="find-country-input" type="submit" class="form-control btn btn-primary my-3">Find Countries</button>
+            </div>    
+          </form>
+          <div class="row" id="country-table">
+            
+          </div>
+        </div>
+        
+    </main>
 </body>
 </html>
